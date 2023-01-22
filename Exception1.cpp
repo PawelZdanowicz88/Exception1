@@ -15,6 +15,7 @@ int function(std::string str, int forbidden_length)
 int main(int argc, char** argv)
 {
     setlocale(LC_ALL, "Russian");
+    system("chcp 1251");
     int forbidden_length = 0;
     std::string str;
     try
